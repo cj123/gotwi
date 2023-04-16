@@ -5,10 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/tweet/filteredstream/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/fields"
+	"github.com/cj123/gotwi/tweet/filteredstream/types"
 )
 
 func Test_FilteredStreamRulesGet_SetAccessToken(t *testing.T) {

@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/resources"
-	"github.com/michimani/gotwi/tweet/tweetcount/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/resources"
+	"github.com/cj123/gotwi/tweet/tweetcount/types"
 )
 
 func Test_TweetCountsRecent_HasPartialError(t *testing.T) {

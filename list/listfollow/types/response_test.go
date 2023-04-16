@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/list/listfollow/types"
-	"github.com/michimani/gotwi/resources"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/list/listfollow/types"
+	"github.com/cj123/gotwi/resources"
 )
 
 func Test_ListFollowsFollowers_HasPartialError(t *testing.T) {

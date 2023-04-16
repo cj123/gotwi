@@ -3,10 +3,11 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/resources"
-	"github.com/michimani/gotwi/tweet/bookmark/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/resources"
+	"github.com/cj123/gotwi/tweet/bookmark/types"
 )
 
 func Test_Bookmarks_HasPartialError(t *testing.T) {

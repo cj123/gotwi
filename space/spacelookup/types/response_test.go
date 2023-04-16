@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/resources"
-	"github.com/michimani/gotwi/space/spacelookup/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/resources"
+	"github.com/cj123/gotwi/space/spacelookup/types"
 )
 
 func Test_SpacesLookupID_HasPartialError(t *testing.T) {

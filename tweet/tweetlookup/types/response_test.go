@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/resources"
-	"github.com/michimani/gotwi/tweet/tweetlookup/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/resources"
+	"github.com/cj123/gotwi/tweet/tweetlookup/types"
 )
 
 func Test_TweetLookup_HasPartialError(t *testing.T) {

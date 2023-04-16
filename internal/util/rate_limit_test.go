@@ -5,8 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/michimani/gotwi/internal/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/internal/util"
 )
 
 func Test_GetRateLimitInformation(t *testing.T) {

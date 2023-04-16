@@ -4,8 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/michimani/gotwi/internal/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/internal/util"
 )
 
 func Test_HeaderValue(t *testing.T) {

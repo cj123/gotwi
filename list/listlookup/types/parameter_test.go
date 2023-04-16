@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/list/listlookup/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/fields"
+	"github.com/cj123/gotwi/list/listlookup/types"
 )
 
 func Test_ListLookupID_SetAccessToken(t *testing.T) {

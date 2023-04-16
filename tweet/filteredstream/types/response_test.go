@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/resources"
-	"github.com/michimani/gotwi/tweet/filteredstream/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/resources"
+	"github.com/cj123/gotwi/tweet/filteredstream/types"
 )
 
 func Test_FilteredStreamRulesGet_HasPartialError(t *testing.T) {

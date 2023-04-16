@@ -12,13 +12,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/michimani/gotwi/internal/gotwierrors"
-	"github.com/michimani/gotwi/internal/util"
-	"github.com/michimani/gotwi/resources"
+	"github.com/cj123/gotwi/internal/gotwierrors"
+	"github.com/cj123/gotwi/internal/util"
+	"github.com/cj123/gotwi/resources"
 )
 
 const (
-	APIKeyEnvName       = "GOTWI_API_KEY"
+	APIKeyEnvName       = "GgOTWI_API_KEY"
 	APIKeySecretEnvName = "GOTWI_API_KEY_SECRET"
 )
 

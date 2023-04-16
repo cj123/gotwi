@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/resources"
-	"github.com/michimani/gotwi/tweet/timeline/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/resources"
+	"github.com/cj123/gotwi/tweet/timeline/types"
 )
 
 func Test_TweetTimelinesTweets_HasPartialError(t *testing.T) {

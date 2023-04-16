@@ -4,8 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/michimani/gotwi"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi"
 )
 
 func Test_String(t *testing.T) {

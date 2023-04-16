@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/list/listtweetlookup/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/fields"
+	"github.com/cj123/gotwi/list/listtweetlookup/types"
 )
 
 func Test_ListTweetsLookup_SetAccessToken(t *testing.T) {

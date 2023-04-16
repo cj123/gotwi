@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/filteredstream"
-	"github.com/michimani/gotwi/tweet/filteredstream/types"
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/tweet/filteredstream"
+	"github.com/cj123/gotwi/tweet/filteredstream/types"
 )
 
 // createSearchStreamRules lists search stream rules.

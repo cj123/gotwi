@@ -5,9 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/tweet/bookmark/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/fields"
+	"github.com/cj123/gotwi/tweet/bookmark/types"
 )
 
 func Test_ListMaxResults_String(t *testing.T) {

@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/list/listmember/types"
-	"github.com/michimani/gotwi/resources"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/list/listmember/types"
+	"github.com/cj123/gotwi/resources"
 )
 
 func Test_ListMembersListMemberships_HasPartialError(t *testing.T) {

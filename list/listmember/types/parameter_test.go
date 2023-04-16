@@ -5,9 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/list/listmember/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/fields"
+	"github.com/cj123/gotwi/list/listmember/types"
 )
 
 func Test_ListMembersListMemberships_SetAccessToken(t *testing.T) {

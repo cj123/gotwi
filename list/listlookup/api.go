@@ -3,8 +3,8 @@ package lists
 import (
 	"context"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/list/listlookup/types"
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/list/listlookup/types"
 )
 
 const (

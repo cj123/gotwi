@@ -3,9 +3,10 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/hidereply/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/tweet/hidereply/types"
 )
 
 func Test_UpdateOutput_HasPartialError(t *testing.T) {

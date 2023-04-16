@@ -5,9 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/compliance/batchcompliance/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/compliance/batchcompliance/types"
 )
 
 func Test_ListJobsInput_SetAccessToken(t *testing.T) {

@@ -10,10 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/internal/util"
-	"github.com/michimani/gotwi/resources"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/internal/util"
+	"github.com/cj123/gotwi/resources"
 )
 
 type testParameter struct {

@@ -5,8 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi/tweet/hidereply/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/tweet/hidereply/types"
 )
 
 func Test_UpdateInput_SetAccessToken(t *testing.T) {

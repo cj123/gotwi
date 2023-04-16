@@ -4,8 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/michimani/gotwi/tweet/tweetcount/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/tweet/tweetcount/types"
 )
 
 func Test_TweetCountsRecent_SetAccessToken(t *testing.T) {

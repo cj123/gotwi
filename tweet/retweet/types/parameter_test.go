@@ -5,9 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/tweet/retweet/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/fields"
+	"github.com/cj123/gotwi/tweet/retweet/types"
 )
 
 func Test_ListUsersInput_SetAccessToken(t *testing.T) {

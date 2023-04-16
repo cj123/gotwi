@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/internal/util"
+	"github.com/cj123/gotwi/fields"
+	"github.com/cj123/gotwi/internal/util"
 )
 
 type ListMaxResults int

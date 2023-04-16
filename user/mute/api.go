@@ -3,8 +3,8 @@ package mute
 import (
 	"context"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/user/mute/types"
+	"github.com/cj123/gotwi"
+	"github.com/cj123/gotwi/user/mute/types"
 )
 
 const (

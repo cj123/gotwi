@@ -3,8 +3,9 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi/list/managelist/types"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cj123/gotwi/list/managelist/types"
 )
 
 func Test_UpdateOutput_HasPartialError(t *testing.T) {

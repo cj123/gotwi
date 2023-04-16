@@ -1,7 +1,7 @@
 package resources
 
 import (
-	"github.com/michimani/gotwi/internal/util"
+	"github.com/cj123/gotwi/internal/util"
 )
 
 type Non2XXError struct {
