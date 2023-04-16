@@ -8,18 +8,12 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"os"
 	"strings"
 	"time"
 
 	"github.com/cj123/gotwi/internal/gotwierrors"
 	"github.com/cj123/gotwi/internal/util"
 	"github.com/cj123/gotwi/resources"
-)
-
-const (
-	APIKeyEnvName       = "GgOTWI_API_KEY"
-	APIKeySecretEnvName = "GOTWI_API_KEY_SECRET"
 )
 
 type AuthenticationMethod string
@@ -36,6 +30,8 @@ func (a AuthenticationMethod) Valid() bool {
 type NewClientInput struct {
 	HTTPClient           *http.Client
 	AuthenticationMethod AuthenticationMethod
+	APIKey               string
+	APIKeySecret         string
 	OAuthToken           string
 	OAuthTokenSecret     string
 	Debug                bool
@@ -59,6 +55,8 @@ type IClient interface {
 type Client struct {
 	Client               *http.Client
 	authenticationMethod AuthenticationMethod
+	apiKey               string
+	apiKeySecret         string
 	accessToken          string
 	oauthToken           string
 	oauthConsumerKey     string
@@ -91,6 +89,8 @@ func NewClient(in *NewClientInput) (*Client, error) {
 		Client:               defaultHTTPClient,
 		authenticationMethod: in.AuthenticationMethod,
 		debug:                in.Debug,
+		apiKey:               in.APIKey,
+		apiKeySecret:         in.APIKeySecret,
 	}
 
 	if in.HTTPClient != nil {
@@ -127,10 +127,10 @@ func NewClientWithAccessToken(in *NewClientWithAccessTokenInput) (*Client, error
 }
 
 func (c *Client) authorize(oauthToken, oauthTokenSecret string) error {
-	apiKey := os.Getenv(APIKeyEnvName)
-	apiKeySecret := os.Getenv(APIKeySecretEnvName)
+	apiKey := c.apiKey
+	apiKeySecret := c.apiKeySecret
 	if apiKey == "" || apiKeySecret == "" {
-		return fmt.Errorf("env '%s' and '%s' is required.", APIKeyEnvName, APIKeySecretEnvName)
+		return fmt.Errorf("gotwi: api credentials must not be empty")
 	}
 	c.oauthConsumerKey = apiKey
 
